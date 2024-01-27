@@ -16,10 +16,16 @@ header
     text-align: center;
 
 }
+.logo
+{
+    font-size: medium;
+    font-weight:400;
+    color: darkgreen;
+}
 .topnav
 {
     background-color:transparent;
     overflow: hidden;
 }
-
+ 
 
