@@ -22,6 +22,9 @@ header
     font-weight:400;
     color: darkgreen;
 }
+span{
+    color:coral;
+}
 .topnav
 {
     background-color:transparent;
