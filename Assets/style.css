@@ -38,7 +38,7 @@ span{
 .topnav a
 {
     display:inline;
-    color: whitesmoke;
+    color: rgb(7, 4, 4);
     text-decoration: none;
     text-transform: capitalize;
     padding: 5px 0;
@@ -89,7 +89,7 @@ span{
 
 .box    
 {
-    background-color:darkslategray;
+    background-color:transparent;
     width: 100%;
     margin: 0 auto;
     max-width: 1200px;
@@ -141,7 +141,7 @@ section
     position:absolute;
     height:100%;
     width:100%;
-    background:rgb(0,0,0,0.2);
+    background:rgba(247, 246, 246, 0.2);
     
 }
 .main .content
@@ -154,7 +154,7 @@ section
 }
 .main .text h5
 {
-    font-size: 20px;
+    font-size: 40px;
     font-weight: 500;
 }
 .main .text h1
