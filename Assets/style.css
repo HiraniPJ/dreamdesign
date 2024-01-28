@@ -5,21 +5,6 @@ body
     margin:0;
     padding-top: 50px;
 }
-header
-{
-    background-color:transparent;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    display: flex;
-    justify-content: space-between;
-    text-decoration: none;
-    padding: 10px 30px;
-    align-items: center;
-    padding: 10px 50px;
-    z-index: 1000;
-
-}
 .logo
 {
     font-size: medium;
@@ -32,13 +17,12 @@ span{
 }
 .topnav
 {
-    
     overflow: hidden;
     width: 100%;
     display:flex;
     justify-content: space-between;
 }
- .nav-links
+.topnav nav-links
  {
     justify-content: center;
     align-items: center;
@@ -57,40 +41,14 @@ span{
     display:inline-block;
     transition: all .30s ease;
 }
-.nav-links li a.active
-{
-    color: darkgray;
-}
-.nav-links a:hover
+.topnav .nav-links a:hover
 {
     color: greenyellow;
-}
-.menu
-{
-    color:rgb(10, 9, 9);
-    font-size: 20px;
-    margin: 20px;
-    cursor: pointer;
-    z-index: 10001;
-    display: none;
-}
-.topnav menu nav-links a
-{
-    display: none;
-    cursor: pointer;
-    font-size: 15px;
-}
-.menux
-{
-    font: 20px;
-    cursor: pointer;
-    display: none;
 }
 .social-links
 {
     display: flex;
     align-items: center;
-    
 }
 .social-links a
 {
@@ -103,8 +61,4 @@ span{
 .social-links a:hover
 {
     color: greenyellow;
-}
-.menu
-{
-
 }
