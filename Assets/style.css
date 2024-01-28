@@ -3,7 +3,7 @@ body
     font-family: 'Roboto', sans-serif;
     font-size:15px;
     margin:0;
-    padding-top: 50px;
+    padding-top: 60px;
 }
 header 
 {
@@ -19,8 +19,8 @@ header
 }
 .logo
 {
-    font-size: medium;
-    font-weight: 500;
+    font-size:large;
+    font-weight: 700;
     color: darkgreen;
     text-decoration: none;
 }
@@ -34,20 +34,27 @@ span{
     display:flex;
     justify-content: space-between;
 }
-.topnav nav-links
+.topnav a
+{
+    display:inline;
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 5px 0;
+}
+.nav-links
  {
     justify-content: center;
     align-items: center;
-    margin: 0;
-    padding: 0;
     display: flex;
     list-style-type: none;
+    gap: 15px;
  }
-.nav-links li a
+.nav-links a
 {
     font-weight: 400;
-    padding: 0 15px;
-    margin:10px 0px;
+    padding: 0 auto;
+    margin:0px 0px;
     color: black;
     text-decoration: none;
     display:inline-block;
@@ -66,7 +73,7 @@ span{
 {
     color: black;
     font-size: 20px;
-    padding: 0  10px;
+    padding: 0px  10px;
     text-decoration: none;
     transition: all .30s ease;
 }
@@ -79,6 +86,19 @@ span{
     display: none;
 }
 
+.box    
+{
+    background-color:darkslategray;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+.flex
+{
+    display: flex;
+    align-items: center;
+}
 @media screen and (max-width: 600px) 
 {
 .topnav .nav-links, .social-links{
