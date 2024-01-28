@@ -78,3 +78,7 @@ color: lightgray;
     text-decoration: none;
     transition: all .30s ease;
 }
+.social-links a:hover
+{
+    color: lightgray;
+}
