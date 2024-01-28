@@ -5,6 +5,7 @@ body
     margin:0;
     padding-top: 60px;
 }
+/*--- menu style--*/
 header 
 {
     background-color: rgba(255, 255, 255, 0);
@@ -116,4 +117,9 @@ span{
     display: block;
     text-align: centre;
 }
+}
+/*--- section style--*/
+section
+{
+padding: 80px 20% 70px;
 }
