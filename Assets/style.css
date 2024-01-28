@@ -121,31 +121,59 @@ span{
 /*--- section style--*/
 section
 {
-    padding: 80px 20% 50px;
+    padding: 90px 15% 40px;
 }
 .main 
 {
-    background-image: linear-gradient(to left, rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url("Gallery/home-bg.jpg");
-    position:relative;
+    background: url("Gallery/home-bg.jpg");
+    position: relative;
     width: 100%;
     height:100vh;
-    background-position: bottom-center;
+    background-position: center;
     background-size: cover;
     display:flex;
     align-items:center;
     justify-content: flex-start;
 }
-.content h5
+.main::before
+{
+    content:"";
+    position:absolute;
+    height:100%;
+    width:100%;
+    background:rgb(0,0,0,0.2);
+}
+.main content
+{
+    height:85%;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+
+}
+.main text h5
 {
     font-size: 20px;
     font-weight: 500;
-    margin-bottom: 15px;
-    color: rgb(2, 54, 2);
 }
-.content h1
+.main text h1
 {
-    font-size:larger;
+    font-size: 40px;
     font-weight: 800;
-    margin-bottom: 15px;
-    
+}
+.btn
+{
+    font-size: 15px;
+    color: whitesmoke;
+    font-weight: 300;
+    background-color: darkslategray;
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all .30s ease;
+}
+.btn:hover  
+{
+    color: darkgrey;
 }
