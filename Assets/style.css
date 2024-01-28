@@ -1,20 +1,21 @@
 body
 {
     font-family: 'Roboto', sans-serif;
-    font-size:18px;
+    font-size:15px;
     margin:0;
     padding-top: 50px;
 }
 header
 {
-    background-color: lightgrey;
+    background-color:transparent;
     width: 100%;
     position: fixed;
+    top: 0;
     display: flex;
     justify-content: space-around;
     text-decoration: none;
-    padding: 14px 16px;
-    text-align: center;
+    padding: 10px 30px;
+    align-items: center;
     padding: 10px 50px;
     z-index: 1000;
 
@@ -22,17 +23,17 @@ header
 .logo
 {
     font-size: medium;
-    font-weight:400;
+    font-weight: 500;
     color: darkgreen;
 }
 span{
-    color:coral;
+    color:rgb(7, 6, 6);
 }
 .topnav
 {
-    background-color:transparent;
+    
     overflow: hidden;
-    width: 100px;
+    width: 100%;
     display:flex;
     justify-content: space-between;
 
@@ -41,9 +42,18 @@ span{
  {
     justify-content: center;
     align-items: center;
-
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
  }
-
+.nav-links li a
+{
+    font-weight: 400;
+    padding: 0 15px;
+    color: saddlebrown;
+    text-decoration: none;
+}
 .social-links
 {
     display: flex;
