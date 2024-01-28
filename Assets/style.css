@@ -73,7 +73,8 @@ color: lightgray;
 .social-links a
 {
     color: black;
-    font-size: 18px;
+    font-size: 15px;
     padding: 0  10px;
     text-decoration: none;
+    transition: all .30s ease;
 }
