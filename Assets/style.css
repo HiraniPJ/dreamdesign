@@ -12,7 +12,7 @@ header
     position: fixed;
     top: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     text-decoration: none;
     padding: 10px 30px;
     align-items: center;
@@ -54,6 +54,7 @@ span{
     margin:10px 0px;
     color: black;
     text-decoration: none;
+    display:inline-block;
     transition: all .30s ease;
 }
 .nav-links li a.active
@@ -62,7 +63,28 @@ span{
 }
 .nav-links a:hover
 {
-color: lightgray;
+    color: greenyellow;
+}
+.menu
+{
+    color:rgb(10, 9, 9);
+    font-size: 20px;
+    margin: 20px;
+    cursor: pointer;
+    z-index: 10001;
+    display: none;
+}
+.topnav menu nav-links a
+{
+    display: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+.menux
+{
+    font: 20px;
+    cursor: pointer;
+    display: none;
 }
 .social-links
 {
@@ -73,12 +95,16 @@ color: lightgray;
 .social-links a
 {
     color: black;
-    font-size: 15px;
+    font-size: 20px;
     padding: 0  10px;
     text-decoration: none;
     transition: all .30s ease;
 }
 .social-links a:hover
 {
-    color: lightgray;
+    color: greenyellow;
+}
+.menu
+{
+
 }
