@@ -1,11 +1,13 @@
 function menuToggle() 
 {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") 
+    var x = document.getElementById("navLinks");
+    if (x.style.display === "block") 
     {
-        x.className += " responsive";
-    } else 
+        x.style.display = "none";
+    }
+    
+     else 
     {
-        x.className = "topnav";
+        x.style.display = "block";
     }
 }
