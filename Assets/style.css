@@ -274,3 +274,23 @@ section
     margin:20px auto 20px 0;
     padding-top: 10;
 }
+.package
+{
+    background: #f4f4f4;
+        padding: 20px;
+        border-radius: 5px;
+        display: inline-block;
+        margin: 10px;
+        vertical-align: top;
+}
+.package .title {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+    margin: -20px -20px 20px;
+}
+.package.pro .title {
+    background: red;
+    color: #fff;
+}
