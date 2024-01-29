@@ -1,9 +1,10 @@
+
 body
 {
     font-family: 'Roboto', sans-serif;
-    font-size:15px;
+    font-size:20px;
     margin:0;
-    padding-top: 0px;
+    padding: 100px 0% 100px;
 }
 /*--- menu style--*/
 header 
@@ -15,8 +16,18 @@ header
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 6%;
+    padding: 10px 0%;
     z-index: 1000;
+}
+
+header::before
+{
+    content:"";
+    position:absolute;
+    height:100%;
+    width:100%;
+    background:rgba(26, 23, 23, 0.2);
+
 }
 .topnav .logo
 {
@@ -121,7 +132,7 @@ span{
 /*--- section style--*/
 section
 {
-    padding: 100px 0% 100px;
+    padding: 50px 0% 50px;
 }
 .main 
 {
@@ -134,6 +145,7 @@ section
     display:flex;
     align-items:center;
     justify-content: flex-start;
+    
 }
 .main::before
 {
@@ -143,33 +155,42 @@ section
     width:100%;
     background:rgba(247, 246, 246, 0.2);
     
-    
 }
+.content
+{
+    
+    background-color:transparent;
+    width: 100%;
+    margin: 0px 0%;
+    max-width: 1500px;
+    padding: 0px 0%;
+}
+
 .main .content
 {
-    height:80%;
+    height: 85px;
     justify-content: center;
     flex-direction: column;
-    position: relative;
+    position: absolute;
 
 }
 .main .text h5
 {
     font-size: 60px;
     font-weight: 500;
-    padding: 10px 5%;
+    padding: 0px 5%;
 }
 .main .text h1
 {
     font-size: 50px;
     font-weight: 800;
-    padding: 10px 5%;
+    padding: 0px 5%;
 }
 .main .text p
 {
     font-size: 25px;
     font-weight: 400;
-    padding: 10px 5%;
+    padding: 0px 5%;
 }
 .btn
 {
