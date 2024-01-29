@@ -339,12 +339,7 @@ section
 
 /*contact form*/
 
-.contact
-{
-    margin-left: 20px;
-    margin-right: 20px;
-    display:flex;
-}
+
 .contact-form
 {
     background: lightgrey;
