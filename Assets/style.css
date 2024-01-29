@@ -30,7 +30,7 @@ header::before
 }
 .logo
 {
-    font-size:large;
+    font-size:25px;
     font-weight: 700;
     color: rgb(19, 68, 19);
     text-decoration: none;
