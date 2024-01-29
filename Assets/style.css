@@ -263,7 +263,7 @@ section
 .section-packages .package
 {
     text-align: center;
-    max-width: 800px;
+    max-width: 500px;
     margin: 50px;
 }
 .section-packages h2 + hr
@@ -297,18 +297,18 @@ section
     background: darkslategray;
     color: #fff;
 }
-.package ul 
+.package ol 
 {
     list-style: none;
     padding: 0;
     text-align: center;
 }
-.package ul li 
+.package ol li 
 {
     padding: 10px;
     border-bottom: 1px solid #ddd;
 }
-.package ul .price 
+.package ol .price 
 {
     background: #ddd;
     color: #333;
@@ -317,7 +317,7 @@ section
     padding: 20px;
     border-bottom: none;
 }
-.package ul .price span 
+.package ol .price span 
 {
     font-size: 16px;
 }
