@@ -3,7 +3,7 @@ body
     font-family: 'Roboto', sans-serif;
     font-size:15px;
     margin:0;
-    padding-top: 60px;
+    padding-top: 0px;
 }
 /*--- menu style--*/
 header 
@@ -15,7 +15,7 @@ header
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 6%;
+    padding: 20px 6%;
     z-index: 10001;
 }
 .logo
