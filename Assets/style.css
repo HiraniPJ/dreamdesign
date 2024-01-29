@@ -8,7 +8,7 @@ body
 /*--- menu style--*/
 header 
 {
-    background-color: rgba(255, 255, 255, 0);
+    
     width: 100%;
     position: fixed;
     top: 0;
@@ -16,13 +16,13 @@ header
     justify-content: space-between;
     align-items: center;
     padding: 20px 6%;
-    z-index: 10001;
+    z-index: 1000;
 }
-.logo
+.topnav .logo
 {
     font-size:large;
     font-weight: 700;
-    color: darkgreen;
+    color: rgb(82, 172, 82);
     text-decoration: none;
 }
 span{
@@ -121,7 +121,7 @@ span{
 /*--- section style--*/
 section
 {
-    padding: 100px 20% 100px;
+    padding: 100px 0% 100px;
 }
 .main 
 {
@@ -143,10 +143,11 @@ section
     width:100%;
     background:rgba(247, 246, 246, 0.2);
     
+    
 }
 .main .content
 {
-    height:85%;
+    height:80%;
     justify-content: center;
     flex-direction: column;
     position: relative;
@@ -154,13 +155,21 @@ section
 }
 .main .text h5
 {
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 500;
+    padding: 10px 5%;
 }
 .main .text h1
 {
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 800;
+    padding: 10px 5%;
+}
+.main .text p
+{
+    font-size: 25px;
+    font-weight: 400;
+    padding: 10px 5%;
 }
 .btn
 {
