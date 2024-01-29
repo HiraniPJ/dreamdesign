@@ -28,15 +28,15 @@ header::before
     background:rgba(26, 23, 23, 0.2);
 
 }
-.topnav .logo
+.logo
 {
     font-size:large;
     font-weight: 700;
-    color: rgb(82, 172, 82);
+    color: rgb(19, 68, 19);
     text-decoration: none;
 }
 span{
-    color:rgb(7, 6, 6);
+    color:rgb(14, 75, 65);
 }
 .topnav
 {
@@ -74,7 +74,7 @@ span{
 }
 .topnav .nav-links a:hover
 {
-    color: greenyellow;
+    color: rgb(46, 66, 15);
 }
 .social-links
 {
