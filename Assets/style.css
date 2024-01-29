@@ -15,7 +15,7 @@ header
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 50px;
+    padding: 10px 6%;
     z-index: 10001;
 }
 .logo
@@ -164,15 +164,15 @@ section
 }
 .btn
 {
-    font-size: 15px;
+    font-size: 18px;
     color: whitesmoke;
-    font-weight: 300;
+    font-weight: 400;
     background-color: darkslategray;
     padding: 10px 20px;
     display: inline-block;
     text-decoration: none;
     cursor: pointer;
-    transition: all .30s ease;
+    transition: all .3s ease;
 }
 .btn:hover  
 {
