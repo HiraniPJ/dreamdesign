@@ -315,3 +315,13 @@ section
 .package ul .price span {
     font-size: 16px;
 }
+.package .signup-btn {
+    background: darkslategray;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: all 0.3 ease;
