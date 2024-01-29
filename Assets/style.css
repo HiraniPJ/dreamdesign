@@ -2,7 +2,6 @@
 body
 {
     font-family: 'Roboto', sans-serif;
-    font-size:20px;
     margin:0;
 }
 /*--- menu style--*/
@@ -214,3 +213,18 @@ section
 {
     color: darkgrey;
 }
+
+
+/*section-showcase*/
+.section-showcase
+{
+    
+}
+.section-showcase h1
+{
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+
+
