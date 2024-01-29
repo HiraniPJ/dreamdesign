@@ -336,3 +336,57 @@ section
 {
     background: darkgrey;
 }
+
+/*contact form*/
+
+.contact
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    display:flex;
+}
+.contact-form
+{
+    background: lightgrey;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.contact-form h2 + hr
+{
+    border: 3px solid darkslategray;
+    width:40px;
+    border-radius: 40px;
+    margin:20px auto 20px 0;
+    padding-top: 10;
+}
+.contact-form label 
+{
+    margin-bottom: 10px;
+    display: block;
+    color: #333;
+}
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea 
+{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.contact-form button 
+{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background: darkslategray;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+.contact-form button:hover {
+    background: darkgray;
+}
