@@ -222,12 +222,12 @@ section
     margin-left: 40px;
     margin-right: 20px;
 }
-.section-showcase h1
+.section-showcase h1 
 {
     font-size: 40px;
     font-weight: 800;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 0px;
 }
  .section-showcase h1 + hr
 {
