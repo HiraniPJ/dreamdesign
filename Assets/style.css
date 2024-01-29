@@ -61,6 +61,7 @@ span{
     display: flex;
     list-style-type: none;
     gap: 15px;
+    text-shadow: 2px 2px 8px #313030a6;
  }
 .nav-links a
 {
@@ -80,6 +81,7 @@ span{
 {
     display: flex;
     align-items: center;
+    text-shadow: 2px 2px 8px #313030a6;
 }
 .social-links a
 {
@@ -133,6 +135,7 @@ span{
 section
 {
     padding: 50px 0% 50px;
+    justify-content: flex-start;
 }
 .main 
 {
@@ -153,7 +156,7 @@ section
     position:absolute;
     height:100%;
     width:100%;
-    background:rgba(247, 246, 246, 0.2);
+    background:rgba(247, 246, 246, 0.24);
     
 }
 .content
@@ -172,25 +175,28 @@ section
     justify-content: center;
     flex-direction: column;
     position: absolute;
+    text-shadow: 2px 2px 8px #f7f7f7a6;
 
 }
 .main .text h5
 {
     font-size: 60px;
     font-weight: 500;
-    padding: 0px 5%;
+    padding: 0px 0%;
+    
 }
 .main .text h1
 {
     font-size: 50px;
     font-weight: 800;
-    padding: 0px 5%;
+    padding: 0px 0%;
+
 }
 .main .text p
 {
     font-size: 25px;
     font-weight: 400;
-    padding: 0px 5%;
+    padding: 0px 0%;
 }
 .btn
 {
@@ -203,6 +209,7 @@ section
     text-decoration: none;
     cursor: pointer;
     transition: all .3s ease;
+   
 }
 .btn:hover  
 {
