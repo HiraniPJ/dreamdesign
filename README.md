@@ -32,17 +32,55 @@ Dream Designs
 
 <h2>Wireframes</h2>
 <p>The wireframes provide a blueprint of the website's structure, presenting a clear and organized layout that prioritizes user experience and intuitive navigation.</p>
+<img src="Assets/images/wireframe.JPG" alt="wireframe">
 
 <h2>Accessibility Testing</h2>
 <p>We are committed to ensuring that our website is accessible to everyone. Regular accessibility testing is conducted to guarantee that users with disabilities can navigate our site with the same ease as all other users.For this we used lighthouse. we have a lot to improve</p>
 <img src="Assets/images/performance-lighthouse.JPG" alt="performance">
 
+W3C Validator
+<img src="Assets/images/w3c html validator results.JPG" alt="html validator">
 
-<img src="" alt="">
-<img src="" alt="">
-<img src="" alt="">
-<img src="" alt="">
-<img src="" alt="">
-<img src="" alt="">
-<img src="" alt="">
-<img src="" alt="">
+Jigsaw validator
+<img src="Assets/images/jigsaw result.JPG" alt="jigsaw">
+
+<h2>Manual Testing</h2>
+<ol type="1.">
+<li>All the nav links are linked to each sections</li>
+<li>All the social links are working perfectly, it tastes you to its designated external sites</li>
+<li>Contact button on the main banner takes you to contact section before the footer</li>
+<li>All the Images on the gallery have an opacity over it , but wehn you hover around it, it appears.</li>
+<li>The youtube video is set to play automatically , directly linked from youtube videos.</li>
+<li>The packages buttons are not linked to its sign up form, but it takes you to the homepage when you click on it</li>
+<li>The contact forms reuired is notified when you press submit filling filling in all the textbox</li>
+
+</ol>
+<img src="Assets/images/contact form usability test.JPG" alt="">
+
+<h1>Deployment</h1>
+<h2>Cloning & Forking</h2>
+<h3>Fork</h3>
+<ol type="1.">
+<li>On GitHub.com, navigate to the HiraniPJ/dreamdesign repository.</li>
+<li>In the top-right corner of the page, click Fork.</li>
+<li>By default, forks are named the same as their parent repositories. You can change the name of the fork to distinguish it further.</li>
+<li>Add a description to your fork to indicate that this is your personal copy or a place where you're planning to propose changes.</li>
+<li>Click Create fork.</li>
+<h3>Clone</h3>
+<ol type="1.">
+<li>Above the list of files, click the button that says 'Code'.</li>
+<li>Copy the URL for the repository.</li>
+<li>Open Terminal. Change the directory to the location where you want the cloned directory.</li>
+<li>Type git clone, and then paste the URL you copied earlier.</li>
+<li>Press Enter.</li>
+<h3>Local Deployment</h3>
+<ol type="1.">
+<li>Sign up to Gitpod or any other online IDE that suits your development needs.</li>
+<li>Download the Gitpod browser extension for easy access.</li>
+<li>On GitHub.com, navigate to the HiraniPJ/dreamdesign repository.</li>
+<li>Above the list of files, click the button that says 'Gitpod'.</li>
+<li>This will open a new Gitpod workspace with your cloned repository ready to use.</li>
+
+<h2>Credits</h2>
+https://unsplash.com/
+https://boxicons.com/?query=youtub
