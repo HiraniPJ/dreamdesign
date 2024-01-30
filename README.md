@@ -34,6 +34,15 @@ Dream Designs
 <p>The wireframes provide a blueprint of the website's structure, presenting a clear and organized layout that prioritizes user experience and intuitive navigation.</p>
 
 <h2>Accessibility Testing</h2>
-<p>We are committed to ensuring that our website is accessible to everyone. Regular accessibility testing is conducted to guarantee that users with disabilities can navigate our site with the same ease as all other users.For this we used lighthouse. </p>
+<p>We are committed to ensuring that our website is accessible to everyone. Regular accessibility testing is conducted to guarantee that users with disabilities can navigate our site with the same ease as all other users.For this we used lighthouse. we have a lot to improve</p>
+<img src="Assets/images/performance-lighthouse.JPG" alt="performance">
 
 
+<img src="" alt="">
+<img src="" alt="">
+<img src="" alt="">
+<img src="" alt="">
+<img src="" alt="">
+<img src="" alt="">
+<img src="" alt="">
+<img src="" alt="">
