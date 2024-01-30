@@ -28,7 +28,7 @@ header
     background:rgba(26, 23, 23, 0.2);
 
 }*/
-nav{
+/*nav{
     display: block;
     position: absolute;
     padding: 0 10px;
@@ -39,7 +39,8 @@ nav{
 .nav-toggle
 {
     display:contents;
-}
+}*/
+
 .logo
 {
     font-size:25px;
