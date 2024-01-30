@@ -14,7 +14,7 @@ header
     top: 0;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
     padding: 10px 0;
     z-index: 1000;
 }
@@ -28,6 +28,18 @@ header
     background:rgba(26, 23, 23, 0.2);
 
 }*/
+nav{
+    display: block;
+    position: absolute;
+    padding: 0 10px;
+    width: 100%;
+    background-color:#333 ;
+    top: 100%;
+}
+.nav-toggle
+{
+    display:contents;
+}
 .logo
 {
     font-size:25px;
@@ -40,10 +52,11 @@ span{
 }
 .topnav
 {
-    overflow: hidden;
+   
     width: 100%;
     display:flex;
     justify-content: space-between;
+
 }
 .topnav a
 {
@@ -124,10 +137,13 @@ span{
     text-align:center;
     background: black;
     transition: top 1s ease;
+
+
 }
 .topnav.responsive .nav-links a, .topnav.responsive .social-links a:hover{
     display: block;
     text-align: center;
+
 }
 }
 /*--- section style--*/
